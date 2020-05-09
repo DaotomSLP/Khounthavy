@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Textbox Name="Textbox1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ບິນຈຳນຳ</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>0cm</Top>
+        <Left>2.96519cm</Left>
+        <Height>0.68792cm</Height>
+        <Width>2.06375cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ວັນທີ :</Value>
+                <Style>
+                  <FontFamily>phetsarath OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>2.48709cm</Top>
+        <Left>0.41837cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>1.37583cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox3">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Format(Fields!Pawn_date.Value, "dd/MM/yyyy")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>2.9457cm</Top>
+        <Left>0.41837cm</Left>
+        <Height>0.56444cm</Height>
+        <Width>1.75198cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ເລກບິນ :</Value>
+                <Style>
+                  <FontFamily>phetsarath OT</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>3.05153cm</Top>
+        <Left>2.37628cm</Left>
+        <Height>0.635cm</Height>
+        <Width>1.90814cm</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox5">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Pawn_id.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>3.12209cm</Top>
+        <Left>4.28442cm</Left>
+        <Height>0.635cm</Height>
+        <Width>3.38359cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox6">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ຊື່ເຄື່ອງ :</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>3.76138cm</Top>
+        <Left>0.44716cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>1.55222cm</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Line Name="Line1">
+        <Top>3.79236cm</Top>
+        <Left>0.46265cm</Left>
+        <Height>0cm</Height>
+        <Width>7.24691cm</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Textbox Name="Textbox7">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ໝາຍເລກເຄື່ອງ :</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>4.29055cm</Top>
+        <Left>0.44716cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>2.7777cm</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox8">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ຈຳນວນເງິນ :</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>12.00034cm</Top>
+        <Left>0.2211cm</Left>
+        <Height>0.51594cm</Height>
+        <Width>3.03473cm</Width>
+        <ZIndex>8</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox10">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ມື້ໝົດກຳນົດ :</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>5.37094cm</Top>
+        <Left>0.46265cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>3.032cm</Width>
+        <ZIndex>9</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Prod_name">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Prod_name.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Prod_name</rd:DefaultName>
+        <Top>3.76138cm</Top>
+        <Left>1.99938cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>2.87288cm</Width>
+        <ZIndex>10</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Prod_no">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Prod_no.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Prod_no</rd:DefaultName>
+        <Top>4.29055cm</Top>
+        <Left>3.22486cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>4.44316cm</Width>
+        <ZIndex>11</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_amount_kip">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Microsoft.VisualBasic.Interaction.Iif(Fields!Pawn_amount_kip.Value = "0", Fields!Pawn_amount_bath.Value + "  Bath", Fields!Pawn_amount_kip.Value + "  Kip")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_amount_kip</rd:DefaultName>
+        <Top>12.00034cm</Top>
+        <Left>3.46749cm</Left>
+        <Height>0.51594cm</Height>
+        <Width>3.97447cm</Width>
+        <ZIndex>12</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_exp">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Format(Fields!Pawn_exp.Value, "dd/MM/yyyy")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_exp</rd:DefaultName>
+        <Top>5.37094cm</Top>
+        <Left>3.70904cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>3.97174cm</Width>
+        <ZIndex>13</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox11">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ຮ້ານ ຄູນທະວີ ມູນລະດົກ</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>0.65264cm</Top>
+        <Left>2.37628cm</Left>
+        <Height>0.65405cm</Height>
+        <Width>3.88653cm</Width>
+        <ZIndex>14</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox12">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ຖະໜົນລາວໄທ ຕໍ່ໜ້າ ຄວສ ບ້ານທົ່ງກາງ</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>1.41253cm</Top>
+        <Left>2.05459cm</Left>
+        <Height>0.49389cm</Height>
+        <Width>5.8521cm</Width>
+        <ZIndex>15</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox13">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ໂທ: </Value>
+                <Style>
+                  <FontFamily>phetsarath OT</FontFamily>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>020 76667788,77717268,59918222</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>2.40771cm</Top>
+        <Left>2.05459cm</Left>
+        <Height>0.50271cm</Height>
+        <Width>5.8521cm</Width>
+        <ZIndex>16</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox14">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ເມືອງສີສັດຕະນາກ,ນະຄອນຫຼວງວຽງຈັນ</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>1.84327cm</Top>
+        <Left>2.05459cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>5.61656cm</Width>
+        <ZIndex>17</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Image Name="Image1">
+        <Source>Embedded</Source>
+        <Value>logo</Value>
+        <Sizing>FitProportional</Sizing>
+        <Top>0.65264cm</Top>
+        <Left>0.32365cm</Left>
+        <Height>1.72861cm</Height>
+        <Width>1.75198cm</Width>
+        <ZIndex>18</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+      <Line Name="Line2">
+        <Top>9.94243cm</Top>
+        <Left>0.28665cm</Left>
+        <Height>0cm</Height>
+        <Width>7.26554cm</Width>
+        <ZIndex>19</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Textbox Name="Textbox15">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ຊື່ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>13.15128cm</Top>
+        <Left>0.23976cm</Left>
+        <Height>0.57326cm</Height>
+        <Width>0.71816cm</Width>
+        <ZIndex>20</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox16">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ບ້ານ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>14.40363cm</Top>
+        <Left>0.22384cm</Left>
+        <Height>0.57326cm</Height>
+        <Width>1.21407cm</Width>
+        <ZIndex>21</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Prod_no2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Cust_name.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value xml:space="preserve">  </Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>=First(Fields!Cust_lastname.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Prod_no</rd:DefaultName>
+        <Top>13.15128cm</Top>
+        <Left>1.04635cm</Left>
+        <Height>0.57326cm</Height>
+        <Width>6.45081cm</Width>
+        <ZIndex>22</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_amount_kip2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Village.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_amount_kip</rd:DefaultName>
+        <Top>14.40363cm</Top>
+        <Left>2.96519cm</Left>
+        <Height>0.57326cm</Height>
+        <Width>4.032cm</Width>
+        <ZIndex>23</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_amount_kip3">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!District.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_amount_kip1</rd:DefaultName>
+        <Top>14.97689cm</Top>
+        <Left>2.96519cm</Left>
+        <Height>0.5424cm</Height>
+        <Width>4.0738cm</Width>
+        <ZIndex>24</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox17">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ເມືອງ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>14.9769cm</Top>
+        <Left>0.23325cm</Left>
+        <Height>0.5424cm</Height>
+        <Width>1.42322cm</Width>
+        <ZIndex>25</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_amount_kip4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Province.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_amount_kip1</rd:DefaultName>
+        <Top>15.51929cm</Top>
+        <Left>2.96519cm</Left>
+        <Height>0.57767cm</Height>
+        <Width>4.06438cm</Width>
+        <ZIndex>26</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox18">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ແຂວງ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>15.51929cm</Top>
+        <Left>0.22383cm</Left>
+        <Height>0.57767cm</Height>
+        <Width>1.42322cm</Width>
+        <ZIndex>27</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox19">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ເລກທີລູກຄ້າ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>12.51628cm</Top>
+        <Left>0.23977cm</Left>
+        <Height>0.635cm</Height>
+        <Width>2.41466cm</Width>
+        <ZIndex>28</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_amount_kip5">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Cust_id.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_amount_kip</rd:DefaultName>
+        <Top>12.51628cm</Top>
+        <Left>3.34214cm</Left>
+        <Height>0.635cm</Height>
+        <Width>4.19414cm</Width>
+        <ZIndex>29</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox20">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ເບີໂທ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>13.83037cm</Top>
+        <Left>0.23976cm</Left>
+        <Height>0.57326cm</Height>
+        <Width>1.37853cm</Width>
+        <ZIndex>30</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_amount_kip6">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Tel.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value xml:space="preserve">  </Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_amount_kip</rd:DefaultName>
+        <Top>13.83037cm</Top>
+        <Left>2.96519cm</Left>
+        <Height>0.57326cm</Height>
+        <Width>4.11848cm</Width>
+        <ZIndex>31</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox21">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ບິນນີ້ໃຊ້ໄດ້ພຽງ 1ເດືອນ</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>7.49201cm</Top>
+        <Left>0.44716cm</Left>
+        <Height>0.5909cm</Height>
+        <Width>7.22085cm</Width>
+        <ZIndex>32</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox22">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ຂອບໃຈທຸກທ່ານທີ່ມາອຸດໜຸນ</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>9.11455cm</Top>
+        <Left>0.34686cm</Left>
+        <Height>0.58455cm</Height>
+        <Width>7.39414cm</Width>
+        <ZIndex>33</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox23">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ລະຫັດລ໋ອກໜ້າຈໍ :</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>6.50864cm</Top>
+        <Left>0.49791cm</Left>
+        <Height>0.56003cm</Height>
+        <Width>3.07941cm</Width>
+        <ZIndex>34</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_exp2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Password.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_exp</rd:DefaultName>
+        <Top>6.50864cm</Top>
+        <Left>3.68315cm</Left>
+        <Height>0.56003cm</Height>
+        <Width>4.0803cm</Width>
+        <ZIndex>35</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox24">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ລະຫັດລ໋ອກໜ້າຈໍ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>16.75843cm</Top>
+        <Left>0.22384cm</Left>
+        <Height>0.55122cm</Height>
+        <Width>3.07941cm</Width>
+        <ZIndex>36</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_exp3">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Password.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_exp</rd:DefaultName>
+        <Top>16.75843cm</Top>
+        <Left>3.38032cm</Left>
+        <Height>0.55122cm</Height>
+        <Width>4.0803cm</Width>
+        <ZIndex>37</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox25">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ເລກບິນ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>10.38639cm</Top>
+        <Left>0.25253cm</Left>
+        <Height>0.70556cm</Height>
+        <Width>2.14582cm</Width>
+        <ZIndex>38</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox26">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Pawn_id.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>10.49222cm</Top>
+        <Left>2.39835cm</Left>
+        <Height>0.70556cm</Height>
+        <Width>5.13793cm</Width>
+        <ZIndex>39</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox27">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ໝາຍເລກຮູບ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>16.09697cm</Top>
+        <Left>0.23976cm</Left>
+        <Height>0.65264cm</Height>
+        <Width>3.07941cm</Width>
+        <ZIndex>40</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_exp4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Image.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_exp</rd:DefaultName>
+        <Top>16.09697cm</Top>
+        <Left>3.39624cm</Left>
+        <Height>0.61736cm</Height>
+        <Width>4.0803cm</Width>
+        <ZIndex>41</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox28">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ທາງຮ້ານຈະບໍ່ຮັບຜິດຊອບ</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>8.60199cm</Top>
+        <Left>0.34686cm</Left>
+        <Height>0.51255cm</Height>
+        <Width>7.39728cm</Width>
+        <ZIndex>42</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox32">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ວັນທີ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>11.23306cm</Top>
+        <Left>0.2211cm</Left>
+        <Height>0.52035cm</Height>
+        <Width>1.37583cm</Width>
+        <ZIndex>43</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox33">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Microsoft.VisualBasic.Strings.Format(Fields!Pawn_date.Value, "dd/MM/yyyy")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>11.19778cm</Top>
+        <Left>2.37209cm</Left>
+        <Height>0.52035cm</Height>
+        <Width>5.13793cm</Width>
+        <ZIndex>44</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox34">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ຊື່ :</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>5.9001cm</Top>
+        <Left>0.45992cm</Left>
+        <Height>0.57326cm</Height>
+        <Width>0.71816cm</Width>
+        <ZIndex>45</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Prod_no4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Cust_name.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Prod_no</rd:DefaultName>
+        <Top>5.9001cm</Top>
+        <Left>1.17808cm</Left>
+        <Height>0.57326cm</Height>
+        <Width>2.36396cm</Width>
+        <ZIndex>46</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Prod_no5">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Cust_lastname.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>SAysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Prod_no</rd:DefaultName>
+        <Top>5.9001cm</Top>
+        <Left>3.64787cm</Left>
+        <Height>0.57326cm</Height>
+        <Width>4.03291cm</Width>
+        <ZIndex>47</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox35">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ສີ :</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>3.76138cm</Top>
+        <Left>4.94281cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>0.82924cm</Width>
+        <ZIndex>48</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Prod_name2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Prod_color.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Prod_name</rd:DefaultName>
+        <Top>3.75709cm</Top>
+        <Left>5.76891cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>1.91187cm</Width>
+        <ZIndex>49</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Rectangle Name="Rectangle1">
+        <KeepTogether>true</KeepTogether>
+        <Top>21.21657cm</Top>
+        <Left>0.54134cm</Left>
+        <Height>0.24253cm</Height>
+        <Width>7.23718cm</Width>
+        <ZIndex>50</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BackgroundColor>Black</BackgroundColor>
+        </Style>
+      </Rectangle>
+      <Rectangle Name="Rectangle3">
+        <KeepTogether>true</KeepTogether>
+        <Top>0cm</Top>
+        <Left>0.32365cm</Left>
+        <Height>0.68792cm</Height>
+        <Width>1.72885cm</Width>
+        <ZIndex>51</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BackgroundColor>Black</BackgroundColor>
+        </Style>
+      </Rectangle>
+      <Textbox Name="Textbox36">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ມື້ໝົດກຳນົດ :</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>17.30965cm</Top>
+        <Left>0.22383cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>3.032cm</Width>
+        <ZIndex>52</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_exp5">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Microsoft.VisualBasic.Strings.Format(Fields!Pawn_exp.Value, "dd/MM/yyyy")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_exp</rd:DefaultName>
+        <Top>17.30965cm</Top>
+        <Left>3.38032cm</Left>
+        <Height>0.52917cm</Height>
+        <Width>4.06164cm</Width>
+        <ZIndex>53</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox37">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ຖ້າບິນເສຍຫາຍ ຫຼື ໝົດກຳນົດ</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>8.08291cm</Top>
+        <Left>0.41837cm</Left>
+        <Height>0.4838cm</Height>
+        <Width>7.24964cm</Width>
+        <ZIndex>54</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Rectangle Name="Rectangle4">
+        <KeepTogether>true</KeepTogether>
+        <Top>18.15632cm</Top>
+        <Left>1.17808cm</Left>
+        <Height>2.91914cm</Height>
+        <Width>4.59397cm</Width>
+        <ZIndex>55</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Rectangle>
+      <Textbox Name="Textbox9">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ຈຳນວນເງິນ :</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>4.81972cm</Top>
+        <Left>0.45029cm</Left>
+        <Height>0.51594cm</Height>
+        <Width>3.03473cm</Width>
+        <ZIndex>56</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Pawn_amount_kip7">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Microsoft.VisualBasic.Interaction.Iif(Fields!Pawn_amount_kip.Value = "0", Fields!Pawn_amount_bath.Value + "  Bath", Fields!Pawn_amount_kip.Value + "  Kip")</Value>
+                <Style>
+                  <FontFamily>times New Roman</FontFamily>
+                  <FontSize>11pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Pawn_amount_kip</rd:DefaultName>
+        <Top>4.81972cm</Top>
+        <Left>3.69668cm</Left>
+        <Height>0.51594cm</Height>
+        <Width>3.97447cm</Width>
+        <ZIndex>57</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox39">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ລາຍເຊັນເຈົ້າຂອງເຄື່ອງ :</Value>
+                <Style>
+                  <FontFamily>Saysettha OT</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>18.15632cm</Top>
+        <Left>1.17808cm</Left>
+        <Height>0.4838cm</Height>
+        <Width>5.08473cm</Width>
+        <ZIndex>58</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>22.62327cm</Height>
+    <Style />
+  </Body>
+  <Width>8.14917cm</Width>
+  <Page>
+    <PageHeight>27.94cm</PageHeight>
+    <PageWidth>8.00001cm</PageWidth>
+    <LeftMargin>0cm</LeftMargin>
+    <RightMargin>0cm</RightMargin>
+    <TopMargin>0cm</TopMargin>
+    <BottomMargin>0cm</BottomMargin>
+    <ColumnSpacing>1.27cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="KhounthavyDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>26ba92d3-f824-41f6-a4fd-1e78b356721d</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>KhounthavyDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Pawn_id">
+          <DataField>Pawn_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Pawn_date">
+          <DataField>Pawn_date</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Pawn_exp">
+          <DataField>Pawn_exp</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Prod_no">
+          <DataField>Prod_no</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Prod_name">
+          <DataField>Prod_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Prod_color">
+          <DataField>Prod_color</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Pawn_amount_kip">
+          <DataField>Pawn_amount_kip</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Pawn_amount_bath">
+          <DataField>Pawn_amount_bath</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Pawn_status">
+          <DataField>Pawn_status</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Pawn_turnBa_date">
+          <DataField>Pawn_turnBa_date</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Users_name">
+          <DataField>Users_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Password">
+          <DataField>Password</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Cust_id">
+          <DataField>Cust_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Cust_name">
+          <DataField>Cust_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Cust_lastname">
+          <DataField>Cust_lastname</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Tel">
+          <DataField>Tel</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Village">
+          <DataField>Village</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="District">
+          <DataField>District</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Province">
+          <DataField>Province</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Image">
+          <DataField>Image</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>KhounthavyDataSet</rd:DataSetName>
+        <rd:SchemaPath>H:\Backup HP long windows\Khounthavy\Khounthavy\KhounthavyDataSet2.xsd</rd:SchemaPath>
+        <rd:TableName>Pawn_view</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>Pawn_viewTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="logo">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>/9j/4AAQSkZJRgABAQEAYABgAAD/4TW2RXhpZgAATU0AKgAAAAgABgALAAIAAAAmAAAIYgESAAMAAAABAAEAAAExAAIAAAAmAAAIiAEyAAIAAAAUAAAIrodpAAQAAAABAAAIwuocAAcAAAgMAAAAVgAAEUYc6gAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+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
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjAxOTowNjowNyAwODo1Mzo1MAAyMDE5OjA2OjA3IDA4OjUzOjUwAAAAAAYBAwADAAAAAQAGAAABGgAFAAAAAQAAEZQBGwAFAAAAAQAAEZwBKAADAAAAAQAC
+AAACAQAEAAAAAQAAEaQCAgAEAAAAAQAAJAoAAAAAAAAAYAAAAAEAAABgAAAAAf/Y/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgBAAEAAwEhAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A+f6KACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooA
+KKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKALdhpt7qt0trp9pPdTt0jhjLMfwFeo6B+z74m1ONJdUuLfS4252sfNkA/3QcfrQB6Jpn7PHhW1jU311f30g+8d4jU/QAZ/Wugg+C3gKAY/sQSZ7yTyH/2agB03wY8AzLt/sJU90nkB/wDQqwdS/Z78I3SN9jmv7KQ9CsodR+DD+tAHn2vfs8eIbFXl0i+ttSQZIjYeVIfzJH615Vqmjalol0bbU7G4tJgfuTRlc/TPWgCjRQAUUAFFABRQAUUAFFABRQAUUAFFABRQAUUAA61618PfglqPiZYtR1oyafpZIKpjE0w9gfuj3P5UAfRnh7wto3hay+yaPp8NrGeXZR8zn1ZuprZ6UAcvq3xE8I6Kzpf6/Zo69Y0fzGH4Lk1ydz8f/BMEm2NtQuB/ejtsD/x4igDf8G/EvRvHV7cW2k21+rW8YeR54gqDJwBkMefau07UAAZWGQciszW/D+leIrFrLVrCC7gPO2VclT6g9QfcUAfPnxC+BV5o8c2p+GfMvLJfme0PMsY/2f74/X614wVKsVYEEcEHtQAlFABRQAUUAFFABRQAUUAFFABRQAUUAFAGelAH0L8I/g9GkcHiLxLbhpGAe1spF4UdQ7j19BXvH3elAHLyfEHQR4wtfC8Fz9o1KYsHEWCkRUE4Y+vHQV1DDIxQB8I60gh17UI1GAlzIo/BjVCgD66+DfhH/hGPA0Ekylb7UMXM+RyoI+RfwH6k1rfEnxWPB/gm91FCPtTjyLYHvI2cfkMn8KAPlfw98Q/FHhm48zTtVmEZbc8Ep3xsT1yp9fbFfQHgP436R4leOw1dE0zUmIVCzfuZT6KT0PsfzoA9W614z8WfhBDrUM2u+HoFj1NQXntkGBcepA7P/P60AfNLoyOyOCrKSCCOQabQ
+AUUAFFABRQAUUAFFABRQAUUAFFABXsXwQ+HS69f/APCRarAH060fFvGw4mlHfH91f1P40AfTZwBx2rwT4ufGCSCWfw54buNrqTHd3qHkHuiH+Z/KgDzj4QTFfivojsSS0rgknqSjV9hmgD4d8aReT4516PGNuoT4H/bQ1tfCzwk3i7xxZ20ke6ytj9ouiemxTwPxOB+dAH2OoAHoOwr5Y+Ovi9df8Yf2Vay77LSwYztPDSn75/Dp+BoA8pooA9v+E3xil06WDQPElyXsm+S3u5DzCeyse6+/b6dPo5SGG7IIPQ0AfPPx3+HaWjN4t0qFVhdtt9Eg4VjwJB9TwffBrwigAooAKKACigAooAKKACigAooAKKANLw/otz4i1+y0i0XM11KIweyjuT7AZP4V9uaFo1p4f0S00qxjCW9tGEUAYz6k+5OSfc0Aec/Gr4gt4W0MaTp023Vb9SCyn5oYuhb2J6D8T2r5YYljk9TQB13wsl8r4n+Hm9btV/MEf1r7PJoA+KviQI/+FkeIPKZWT7a5BU5HXmvoP4F+E10HwYupzxkXuqYlO4crEPuD8eT+PtQB1HxE8VL4O8GXuqKy/advlWyt3lbgcd8dfwr4umleeaSaVi0kjFmY9ST1NADKKAAHBzX0p8C/iG2r2P8AwjGqTFry1TdayP1kiHVc+q/y+lAHsV9ZQajYXFndRiS3njaORG6FSMGvinxr4am8JeLL7R5SWWF8xOf44zyp/KgDn6KACigAooAKKACigAooAKKACigD3L9nTw2tzqupeIZlz9lQW8GR/E3LH6gAD/gVfQ1xPHaW0s8rbYokLufQAZNAHxN408STeLPFd/rE2QJpMRIT9yMcKPyrAoA6PwBKYPiF4ekHX+0IR+bgV9T/ABO8ZJ4M8HXF2jD7dOPItUzzvI+9/wABHP5UAfMPgHw1P4z8b2dgwZ4mk867ducRg5Yn3PT6mvtBI0hjVI1CooCqoHAHpQB8u/Hnxh/b
+nixNGtZCbTS8q2Dw0x+8fw4H515LQAUUAFaWgazdeHtes9WsnKz2soce47g+xGRQB9waVqMGr6TaahbMGhuoVlQg9mGa8T/aN8PI9lpfiGGMeZG5tZ2A6qeUz9CG/OgD55ooAKKACigAooAKKACigAooAKKAPrr4JaQulfDLT3wPMvGe5c/U4H/joFP+NOtyaL8NdQ8h9k14VtVI9GPzf+OhhQB8hUUAafhuUweKNJmDbSl7C2fTDiut+LvjP/hL/GMot3J06wJgthnhsH5n/Ej8gKAPafgd4J/4R7wt/a93CV1HUwH+YcpD/Cv4/eP1HpXX+P8AxVF4Q8G32ql1E4Ty7ZW/jlbhR746/QGgD42tLW/17WI7a3SS6vruXCjOWd2Pr+PWvYviD8GItC8BWeoaUrS31hHnUNvPnAnJcf7pP5fSgDw7pRQAUUAfVH7P+rtqHw9Nk75ewuXiAPZW+YfqTXUfFHTE1b4ba5buoJW3MyezJ8w/lQB8X0UAFFABRQAUUAFFABRQAUUAFFAH2/4HhEHgbQo1GAthD/6CK8x/aSuGTw3o1uD8sl2zkeu1f/sqAPm6igAHBBFd18KvBp8ZeMoIZkY6faYnumxwVB4T/gR4+maAPsNFCIFUAKOAB2rxT9onR9Su/D2najbsz2FnKftEaj7pbAVz7dv+BUAQfAX4f/Y7M+LNShxcTgrYq38EZ6v9T0Ht9a9xkjSWJo3UMjKVZSOCD1FAHyD8V/Aj+CvFLCBG/su8LS2r44X1T6rn8iK4GgAooA96/ZqvHF3r9kSdhSKUD3ywP9K941e3W60a+t2AKywOhB75UigD4OIwxB7cUlABRQAUUAFFABRQAUUAFFABRQB9yeDmD+DNEYEc2MJ/8cFeTftKpnR9Bk7C4lH5qv8AhQB86UUAKqlmAUEkngCvsL4T+DF8HeDoY5kA1C8AnujjkEjhP+Ajj65oA7aS4himiieVFklJEaFsFsDJwO/FR6hYWup6
+fPZXkKzW86FJI26MDQAkstrpOnvLI0dtaW0ZJJ+VURR+gArB8E+ONO8caZNeWG5fJmaKSN/vAZ+VvoRz+fpQA7x54PtfGnha50uYBZiN9vL3jkHQ/TsfY18Y6lp91pWpXFhewtDc28hjkRh91hQBVooA9y/ZrRjrWvSYO1beJSfcsf8ACvoW+cR2Fw7HAWJifyoA+CnILsR0J4ptABRQAUUAFFABRQAUUAFFABRQB9m/CrUF1L4Z6DOGDFLYQtjsUJU/yrmP2g9ON38PUu1XJsrtHJ9FbK/zYUAfLNFAHqnwP8FnxH4rGq3UQbT9MZZDu6PL/AuO+MZP0HrX1Q2FXJOAKAPlb4j/ABMu7/4kwX2k3LfZNGl22u04V2B+dvcNyPpX0p4Z8QWnijw/Z6xZH91cpu2nqjdCp9wcigDlvjRp2qal8OL5NLkYGIiW4iUZMsS8sPw4P4V85fDbxrL4I8WQXpZzYzfuruMH7yE/ex6jr+Y70AfZFtcRXltFcQOskMqB0dTwykZBFeI/HrwB9qtv+Es02D9/CoW+VB95Oz49R39selAHzpRQB9J/s4aZ5HhnVNSZcG5uljU+oRf8WNem+N74ab4H1u73bTHZSkH3KkD9TQB8P0UAFFABRQAUUAFFABRQAUUAFFAH0j+zjraz6Bqmiu/7y1mE8ak/wOMHHsCv/j1es+JNHi1/w7qGkzKGW6gaMZ7HHB/A4P4UAfDl7Zz6ffT2dzGY54JGjkRhyGBwRRZ2k9/eQ2lrE0s8ziONFHLMTgCgD7R8B+E7fwb4Ts9LiVfOC+ZcyL/y0lP3j/QewFc38Z/Gx8K+EmtLWXbqWohoYsdUT+N/yOB7n2oA+Sz1r2f4B+N/7K1uTw1eykWt+d1tk8JNjp7bgPzA9aAPUfjH40HhTwfJBbzbdS1AGGAL95Vx8z/gOPqRXyPQB9DfAPx750J8I6hL+8jBexdm6r1aP8Oo9s+le6TQRXVtJBPGskUqlHRhkMDw
+QaAPjz4oeB5fBPimSCND/ZtzmWzfr8vdT7r0/I1xUaNI6ogLMxAAHc0Afa/gPw6vhXwVpmkgfvI4g8x9ZG+Zv1P6Vxf7QGvHTfAaaYj4l1KcIQDz5a4Zv12j8aAPlqigAooAKKACigAooAKKACigAooA7H4YeKR4S8dWN/KxW1lP2e59o3IyfwOD+FfZiMrIrKQysMgjvQB84fH7wQ9nqi+KrJM2t0RHdKo+5L2Y+zDH4j3rybw3rc3hvxFY6xboryWsokCsOGHcfkTQB9p6R4i07WfDMGuwTqtlLB5zOx/1YA+YE+2CD9K+QviJ4ul8Z+LrrUicWqnyrVP7sY6fieSfc0AcpUkE0ttcRzwyNHLGwdHU4KkcgigDe8ZeMtS8a6vHqGpMoaOFYURB8qgDk/icn8a52gCzp9/caXqNvf2khjuLeQSRuOzA5FfZ/gPxfbeNPCttqkRVZ8bLmJTny5B1H07j2NAEHxC8FweNvC82nsEW7j/eWkzfwSDp+B6H/wCtXh3wa+Hl1qPjCXUNWtDHa6PKVaORfvXA6L/wHr+VAH09kYr5G+M/iseJvHU0VvLvsdPBtocH5SwPzsPqePoBQB51RQAUUAFFABRQAUUAFFABRQAUUAKDivqH4HePl1/QF0C/m3anp6YjLdZYRwD7leh/CgD1DU9MtNX0y40++iWa2uEKSI3cGvkL4i/D6+8C6yY3DTabMxNrc4+8P7rejCgDO07xrqumeD9S8MwSf6FfOrMSeUx94D2bjP0rm6ACigAooAK7/wCE3jlvBfilPtD/APErvSIroE8Jzw/4Z/ImgD69V1lRWRgysMgg5BFJHBHEX2Iq723NtUDJ9T78UAedfGDx4vg/wy9raSqNWvlMcCjrGnRn/DoPf6V8lEknJ5J60AJRQAUUAFFABRQAUUAFFABRQAUUAFaGi6xe6Bq1vqenztDdW77kYH8wfUEcEUAfX3w/8faf470ZbiFlivogBdWpbmNvUeqn
+sa6HWdF0/wAQaZNp2pWyXFrMuGRh+oPY+9AHzR4/+CereHHm1DRVk1HSx8xVVzLEPdR94D1H415QVZWKsCGHBBHSgBKKACigArt/hr8P5PH2sSQfbI7W1tQr3DZzIVOfuj+vagD650fS4NF0m0022MnkW0YiTzHLNgepPWsrxp4z0zwVob6jqEmWOVggUjfM/YD29T2oA+PPE3iTUPFmu3Gr6lLunlPCj7qKOigegrHoAKKACigAooAKKACigAooAKKACigAooA09C1/UvDerQ6npVy0FzEeCOjDuGHcH0r6i+Hnxe0fxfBFZ3rx2GsYAaF2wkp9UJ/l1+tAHpFcf4n+F3hXxYxlvtOWK6P/AC8237tz9ccH8QaAPK9Z/ZuuVlZ9F12N4/4Y7yMhh/wJeD+Qrlrj4BeOIWIjgsZx2KXIGf8AvrFADYPgJ45lYCS2s4R3L3SnH5ZrptI/Zvv5JFbV9ct4YwfmS2jLsfxOAPyNAHn/AMSvAz+BfExso2kksZk8y2mk6svcHHcH+lUPAniqfwd4ss9ViZvJVtlyg/jiP3h/Ue4FAH0v4y+L/h3wxpaS29wmo3s8Ykgt4XzwRkFj/COnvXy74n8Var4u1d9R1a4Mkh4RBwka/wB1R2FAGLRQAUUAFFABRQAUUAFFABRQAUUAFFABRQAUoYqwZSQRyCKAPT/B3xv8R+HBHbagf7WsVGAk7YkUez/45r2nw98a/B+uxqJr06ZcHrFeDaPwYcH86AO7tL+z1GETWd1BcxkZDROHH6VawKAFxVe5u7ayhaW6uIoIl6vI4UD8TQB4r8afFHgnXvCxsk1eK41W3fzLX7MvmYPQgsOACPfsK+czwaAEyT1ooAKKACigAooAKKACigAooAK2f+ES8Q/2SdV/sW+/s8LvNwYG2bf72cdPegDGooAKKACigAooAKKAJ7W8urKTzbS5mgk/vROVP5ityLx94tgQJH4k1QKOg+0sf60ALJ8QPF8qlX8S
+amVPX/SGH9axLzULzUJPMvLue4f+9NIXP6mgCtRQAUUAFFABRQAUUAFFABRQAUUAFfXvhW+tJ/hnZ6bqXiHTVuJ7ARbldAIVZMKNpPJA9e9AHnf/AAo3wif+Z7i/76i/+KrzX4h+E9N8Ia3b2OmasupwyW4laVSp2ncRj5SfQfnQByFFABRQAUUAFFABRQAUUAFFABRQAUUAFFAHqvwj+Ftl45hu9R1S5lSztpREIYThnbGTk9hgiu4v/h38INK1FtPv9W+z3iEBoZL7DKT0zQBjfEn4I2mj6GdY8MGd0gBe5gllDYjAJLqT6eleF0AFFABRQAVattNv7xC9rZXM6r1MUTMB+QoArujxuUkVlYdVYYIptAF6PRtUmthcRabePARuEqwMVI9c4xVNY3eRY0RmkY7QoGST6YoAvTaFq9vE0s+lX0UaDLO9u6gD3JFUApZgqglicAAdaALd1pOpWUQlu9Pu7eMnAeWFkGfTJFU6ALdtpeoXq7rWxuZx6xQs38hTLqwvLFgt3aT27HoJYyhP50AV6uW2kanexebaaddzx5xvigZhn0yBQBBcW09pM0NzDJDKv3kkQqw79DU1rpWo30Zks7C6uEBwWhhZwD6ZAoAg8ibz/I8p/O3bPL2nduzjGPXNW5tD1e3iaWbSr6ONBlne3cAD3JFAFDrVm10+9viRaWdxcEdRFEz4/IUAQywywSGOaN43HVXUgj8DTKACigDW0nxBr2lRtbaRql/apI24x20zKGPrgdTTdTtddmmkv9UttQaSQ7nuLmN8t7lmHNAFiXxl4mmtGtZdf1N7d08tomunKsuMYIz0xWHQAUUAFFAHrHwT+H1l4u1K61LVo/N0+xKqsJ+7LIecN6gDnHuK9P1n41eEvCuoSaNaWFzN9lfynFtGqRoRwQMkZx9KAIfHOh+GviP4BbxHp3kxX6WzXFvLgLI23JaNx36Eex6V8vjrQB9afBPXbbWfh5bWkMbq+m/6NKXAwzfe
+yPbmvnbWrqHSPixe3ZjIgtNZaUpGB91Zc4H5UAfS3jbU4ta+DOq6nArpDdab5yK/UBgCM4r5J0v/AJC1n/13T/0IUAfSn7Qox8O7X/r+j/8AQGrx34ReDoPGXjNbe9TfYWsZuLhM43gEBV/EkZ9gaAPoHxV8SPC/w6lt9Jmgk83ywy29nEMRp0GeQB06VYuU8O/FvwJKYMS286kRuy4kt5R0+hBx9R9aAPj66t3tLya2kGJIXaNvqDg19Gfs8eIbafQLvw8sUgubeRrpnwNhVsAAe/FAHl3xt/5Kvq/0h/8ARS16z+zlz4K1L/r+P/oC0AeF319HpvxNur+VWaO21h5XVepCzEnH5V9OeOdSi1r4L6nqkCOkN3pomRX6gMAQD70AfLvgjQB4n8Z6Xo7lhFcTYlK9QgGWx+ANfT3iPxn4V+FVpYacbJkEq/ure0jGQo43Ekj/ABNAFfxDoXhv4seBm1WyRWmaJ3tblU2yJIv8De2Rgivk1UHmhHO0bsMfSgD27X/2erlLO1l8N6h9taQ5kFyVjAXGQQR1rw9kKSNGfvKcHFAH1D4O8M+H/hZ4FXxFrSK188SyTzFNzKWxiNB26ge/NavhT4t+GfG2qnRooJ4ZpFPlpdou2b1AwTzjsaAPHvjj4H0/wrrlnf6Uiw2moBibdRhY3XGdvoDkcdq8ooAKKACigD0/4P8AxJg8EX9xY6kHOmXrKXkXkwuON2O4xwe/FewzeCvhf40uJdWi+xzyTMXlktrsplj3Kg8E/SgDhPiB8C7fStIudZ8NXU8kdvGZZLSYhjsHJKN7DnB/OvCqAPpX9m8/8UjrH/X8P/QFrwnxz/yPviD/ALCE/wD6GaAPpDUf+Tcm/wCwGn/oIr5c0v8A5C9n/wBd0/8AQhQB9K/tDf8AJOrX/r/j/wDQXrjP2bP+Rj1v/r0T/wBDoAv/ABx+HriTUvGv9ojafJjFr5fIwFT72fx6Vu/s5c+CtS/6/wA/+gLQB88+
+Jv8AkatY/wCv6b/0M161+zb/AMjJrX/Xov8A6GKAOS+Nv/JWNX+kP/opa9Z/Zx/5ErUv+v4/+gLQB8+eKv8Akb9b/wCv+f8A9GNX0vqv/JuH/cDi/wDQFoA8U+CP/JV9K/3Zv/RbV0n7R3HjDS8f8+P/ALOaAPQPgJz8LpM/8/U38hXy7cf8fMv++f50AdZp/wAU/GumWMVla69OsEKhI1ZVbao6DJBOK5AuzSFyx3E5J96ALl1req3tv9nu9TvZ4cg+XLOzLkexOK3/AIYk/wDCzfDv/X4lAHqv7S3+p8Pf7038kr59oAKKACigD1/4E6hoD6rd6FrdlZzS3ZD2j3EKtlxwUBI4yOR9DW34x+AWq3viO4vPD9zYJZXMhk8mYmMwk9QAAQR+VAHot7Enw++DNxaXt59oktLB4RI5+/IwIVRntlsD2r5A70AfSn7N/wDyKWr+98P/AEBa8K8cf8j74g/7CM//AKGaAPqzw/pMGu/CLTdKuSRDd6UkLEdRlMZHuK8o0j9nvV7bxPFJfanZnS4ZQ4kiLeZIAQQNpGAT9TQBvftG6pBF4X0vSt6/aJ7rzgmeQiqRnH1YVzf7Nn/Ix63/ANeif+h0Aavxx0zxkYdS1D+0o/8AhFiYQLTf827gZxt/vc9a1v2cv+RK1L/r/P8A6AtAHz14m/5GvWP+v6b/ANDNetfs2/8AIya1/wBei/8AoYoA6n4pfBy98Xa9/bmi3NulzKipPDcEqGIGAwYA9sDHtXWeAPCKfDbwdcQ316ksmWurmUcImFGQM9gB1NAHyTqt5/aGsXt70+0XDy/99MT/AFr6j8FPa+PvgpFpK3CpJ9jNhMRyYnUYBI+mD+NAGJ8Mvg3qXhLxW2s6vd2sn2dWS2S3LHJYY3HIGOM8c9a8/wDj7rNrqfj5Le1lWT7DbCGVlOQHySR+GRQB6j8BOPhdJ/19TfyFfMEpK3jsMZDk8/WgD6TbW/hP400HT5dcl0+2mVA7wbjA
+6OR8wO3GRXzVLsW4fYcoGO36ZoA+j4vh54P8f/DeK78M2dnY6jLGpEw3ZjkXG5GGeO/5g1Q+HfwR1bQPFdvrOuXVpss28yGK2csXfsTkDAHWgDnf2g/E1tqniSz0a1YP/ZqN5zg9JGx8v4ADP1rxygAooAKKAHxyvDIskTskiEMrKcEEdxXpOmfHbxpp1mls09rdhBgPcQ5fHuQRn8aAOd8WfETxF408tNWu1NvEdyW8K7EB9cdz9a5WgDt/BXxQ1rwLp1xZaZb2ckc8vmuZ0JOcAcYI9K5TVdRm1fV7zUp1VZrqZ5nCdAzHJx+dAHcw/GjxVa+GotDtjawQwwLBHNHGRIoUAAg568elW4fj543is/JaaylkAwJnthu/TA/SgDgdc1/U/EepPqGrXb3N04wXbsOwAHAHsK1fBfjrVfAt5dXWlJbtJcxiN/PQsMA54wRQBteKPjD4j8W6FNpGoQ2K20rKzGKJg2QcjksaqeDvijrvgjTZrDS4rNoppfNYzxljnAHYj0oA5C9u5L+/uLyUASTytK+0cZY5OPzroPBnjrVfA15c3WlJbtJcRiN/PQsMA54wRQB0cXxz8aw6rPerdW5jmIJtWizEpAA+XnI6etZfin4q+KvF1o1lf3iRWbfegtk2K/1PUj2zQBxNbXhzxZrfhO9N3o189u7DDrgMjj0ZTwaAOz1D47+Nb6we1Wa0ti67TNBDh/wJJwfcV5pJI8sjSSMXdjlmY5JNAHceFPivr/g/QzpGmxWTW5dnJmjLNluvORXDu5eRnPViScUANooA3vDXjLXfCN2bjRr94N334yA0b/VTwfr1rrNU+OfjXUrBrRbq2tA6lXktodrkH3OcfhQB5vJI8sjPIxZ2OWZjkk02gAooAKKACigAooAKKACigAooA9U+E3w40Px7Zai2oX13Dc2sigJAVAKMODyD3Bq14Q+FGma/468TaJdz30VrpUmyKRNoZvmIG4kY6DNAHBeOdCtfDPjP
+UtGs5ZJYLVwivIQWPygnOOOprvNf8BaHYeBL7WoLVlmGnWcsB81jtlLKsxx77xx2zQByOteDYtJ8LWGsLfGaScw+dCYtoTzUZ12tkk8Ic8CtfW/B2mWnjrSbawk3WeoX7W7QSxECIrIFK8Nll565B+lAGD/ZNofB2oXYhX7XHqyWySZIwhRyRj6gVN448GR+Dri0hXUo7uSUOJUAUGNlxngMcA54zg8dKANXw14NtNW+Hep6nNAgvI3fyZnkI2ogQl8A42j5wSQeSgFc14N0u11jxhpen3ql7aecLIqnGV64z26UAa1toWk+IvFN1HbxXGj6dDaiaSPaZWB+VTs3EZUs2Rk9Kk0XwLa6hq2s2F7qckB067+yq8VuH8xv3nOCwwP3Z9etAEdv4MsJfFOoabLqU6WVrZreCdbcF2VhGQNm7AP7wd+1WtG+HKaprOsae+pGM6dqEdlvWEHzN5kG7GePudPegDLOiaZ/wrxtV3zf2kNVFoPl+Qpszjr+Oa09a+HcOkeINC0oask0mozCCbaq7oGyozgMcj5uM4PHQUAcdqkFpa6lPBY3LXVvG21J2j8svjqduTjmqdABRQAUUAFFABRQAUUAFFABRQBs+HPFOseFL57zRrx7aZ08tyACGXOcEHjtXSD4yeOAXZdWVWk+8y28YJ/HbQBw9xcS3dzJcTyNLNKxd3c5LE9STW3deNdevdIbS570tZtGIjHsX7oKHGcesaflQBXvvFGralpFppd1cB7W0x5ShFB4BC5IGTgEgZ6Zqe+8Za3qGpWOoXFyhubFt8DLEqhW3bixAGCSccn0oAzjq14dPlsfN/0eWcXDrgcyAEA569Cas654m1TxE8L6nOsrQghSsapknqTgck9yaAJ9N8YazpWjzaVa3CCzl3hkeJH4cAMuSCcHAyPUA1mabqVzpOo29/ZSGK5t5BJG4GcEex60Aaw8a64Nfk1r7TGbySIQtuhQx7AAAuzG3AwOMdqrW3ifVrS6
+urmK6IlupvPmYqCWf5ueR/tt+dAF/RPGl5pOq32pyItxdXFj9kRnVSqY2BSVIIIAQDFQ6b4317Sby/u7O8CzX8nm3DPGrbnBJDDI4PzHketAGcus3q6PLpXmKbSScXBQoCRIARkHqODjir154x1q/vrC9uLlWuLFg8DrEq4YEHccD5idoyT6UAYbsXdnPVjk02gAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooAKKACigAooA//9n/4THkaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49J++7vycgaWQ9J1c1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCc/Pg0KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyI+PHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj48cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0idXVpZDpmYWY1YmRkNS1iYTNkLTExZGEtYWQzMS1kMzNkNzUxODJmMWIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyI+PHhtcDpDcmVhdG9yVG9vbD5XaW5kb3dzIFBob3RvIEVkaXRvciAxMC4wLjEwMDExLjE2Mzg0PC94bXA6Q3JlYXRvclRvb2w+PHhtcDpDcmVhdGVEYXRlPjIwMTktMDYtMDdUMDg6NTM6NTA8L3htcDpDcmVhdGVEYXRlPjwvcmRmOkRlc2NyaXB0aW9uPjwvcmRmOlJERj48L3g6eG1wbWV0YT4NCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/eHBhY2tldCBlbmQ9J3cnPz7/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAFnAWcDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB
+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
+amWQpHFlckKmAM1n+KvgPpnwl/aI+FmlWeq/8Jd4T8UDSNa026vrRYHnsrmYfJLExYKRtcEd+ad4H/ai0vwr+1x4k+LNzoVzdaDrl5qjz6XFKqTrb3qyIwRvu71EnU8ZFUvi5+0VofjT4yfDzxFoGi3tl4V8D2Gl6Vp1nfzo93NbWT7laVl+Xe2WPpk0Adv+3Z+z34X+H+ual458Ha4bzSdW8Xaxo9xpC6YLKPTLi3cM0UShiGjUOFBAAwBwK5741eCY/Dvxe+Ctlcx6XPFqfh3QLx47DS47SIrM+CroMiVzzukYZc8kVZ/ay/ag8JfHLw/p2ieDfDmq6HbyeIdT8UajJrNwkz/bLxl3JHs6RKq555ya4v4rfHvTviH8Qfhp4gt9LurO38J6JpOkywTSKZJmtGJd0I4AYkkZ9aAPSPHH7Ptt8Xv+CgPjf4daMIPDWknXNRf/AEG08xLa3gR5XWKFAu5iqYVRx8wry/8Aae+AY/Z78caTpVrqd5qWnaxo1rrdk+oWJsbxIpS67J4CSY5AyOME12fh39rKw0P9s7XPjQmi3h0bVr2+ll0xJ1S6SC5ikjIV/u7137wemVFed/tBfEPw58SPGlre+E7DWrPRrPT4rKOTxFqT319dOu4vPK7NtUvu+4nygrheKAPTP+CfXwxtPit8cNQ0i40HTtdvU0C+utKt9XieTT0v1QeQ1wo6p8zYzxnGK5j9r/4YWvgL4sX2paDpMOi+DdflmvNBtFbY32ZJDEziJjvjjaVJCgfquMUv7Kvx+0T4K6p4ss/EunavfeHfEmmpYzz6DcLbajavHOk8UsLtwDvTkehqT9sn9obSv2nPiba+NbHS9R0W9k0+KyvrW9u0uIt0fCNCVGQCBlv9rNAF39h3wb4f8X/F7VW8Q6HZ+IbbRfDOqa1Bp+oAm2muIICYxKAwymcceuKyvEGn+GP2m/2jvDWkfDnQIvA1t4omsdOks5Fxb2146qk80aKxKxbsuFzn
+kjis79ln4z6V8C/iZNrWvaXdatoOo6ReaNf2+mzCO6SG4jKGSMnjepGcHsa19W+P3hbQv2l/CfxD8B+DI9A8N+GJrB7TRpHRJblbcrveZk+USSkMW/CgBn7S37PugfBvT/CWueFPFdx4r8NeIjfwxzXunmynils7nyJlKb2yN2CORX0Nb/8ABOLwI2qWen3Hxa1KLUG1HStIng/4R7cEu9RtfPtkz53zL13N2XBrwP8Aak+PnhH4taT4N8P+CNE1bSNA8OtqNxu1u5Sa6mnvLjz5eU4CK2Que1ewP/wUA0CTxcdY/wCEU1Lyv+Ek8N655SzxZ8vTLL7M8X+875Ye1AHhXwP+AOl/Ev4k+N/DviHxPJ4e0vwro+pardapb2n2klLNh5gCbxnIJ71seLv2X7HQP2oPB3wusvEk19o3iqXSGtNb+w+VKtvfiJldoN5+ZRKQV3DO2ur/AGOvFvhm/wDi98ZNY8Uo0fh3VfBniB57OO6jguJYpdrtBCzcGVlyFHqDXM+Pf2mtJ1r9qjwb8TtH0O6h0DwpJo6WWm3s6vcSwWAiCh2X5d7eWW+poAzfjl+zbbfB3wT4f8QDxBPqn9pa9rWiyxm08vy1sbkw+YG3nJcfNtxxnG411X7ZXwh+Hvw+1P4S23w9nmkuNe8KWF9eQy27RrO8u4Jc5aRsPKd4ZAMIYxj71U/2rv2k/Bnxm8L+G9B8G+HNZ0Wy0vVtV1aV9YuI5nle9nE0gBToAwNcz8dPjfoXxUtfhXqGm6bqOneIPDHh600PUftEkZtpfsrfupYCPmBO592/jpigDu/2pP2Jf+Gc/h9Y+I4fEN9q08erDQtSt77SHtI/tBtxOZLWRmPnw5JQPgZIzgVyHxg/Z68MfCf4LfDzxaPHP9oeKvGGnW+qReFzY7WtrZ/MV5WmDkEBkVVyASd/A210f7Vn7T3hH9oDT7e40fRPEll4hvdS/tXVJta1d7izgYQiM29pArbVizlt5AcdBxXm
+vxv+Lln8UtF+GNlZ2FxYyeE/C1v4fmMzKfOeOaaTzFA5APm96APKHO52OMZNJQepxyKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>c0f3a5e5-98ba-4434-b777-ef367ffee48c</rd:ReportID>
+</Report>
