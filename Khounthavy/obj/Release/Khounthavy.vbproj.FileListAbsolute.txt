@@ -1,0 +1,16 @@
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.vbprojAssemblyReference.cache
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.Print.resources
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.Home.resources
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.Login.resources
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.Resources.resources
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.vbproj.GenerateResource.cache
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.vbproj.CoreCompileInputs.cache
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\bin\Release\Khounthavy.exe.config
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\bin\Release\Khounthavy.exe
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\bin\Release\Khounthavy.pdb
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\bin\Release\Khounthavy.xml
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.vbproj.CopyComplete
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.exe
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.xml
+C:\Users\DodoJa1\Desktop\Khounthavy\Khounthavy\obj\Release\Khounthavy.pdb
